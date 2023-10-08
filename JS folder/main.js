@@ -55,12 +55,12 @@ var swiper = new Swiper(".pk", {
 // <================  Electronics slider js ==============>
 var swiper = new Swiper(".eletronics", {
   spaceBetween:32,
-  loop:true,
-  speed:1100,
-  // autoplay: {
-  //    delay: 500,
-  //    disableOnInteraction: false,
-  //  },
+  loop:false,
+  speed:800,
+  autoplay: {
+     delay: 500,
+     disableOnInteraction: false,
+   },
 
   navigation: {
     nextEl: ".swiper-button-next",
@@ -89,12 +89,12 @@ var swiper = new Swiper(".eletronics", {
 // <================ Beauty toys and more slider js ==============>
 var swiper = new Swiper(".beauty", {
   spaceBetween:32,
-  loop:true,
-  speed:1100,
-  // autoplay: {
-  //    delay: 500,
-  //    disableOnInteraction: false,
-  //  },
+  loop:false,
+  speed:800,
+  autoplay: {
+     delay: 500,
+     disableOnInteraction: false,
+   },
 
   navigation: {
     nextEl: ".swiper-button-next",
@@ -155,7 +155,73 @@ var swiper = new Swiper(".fest", {
    },
 });
 
+// <================ Pick up your style slider js ==============>
+var swiper = new Swiper(".pick", {
+  spaceBetween:32,
+  loop:false,
+  speed:800,
+  autoplay: {
+     delay: 700,
+     disableOnInteraction: false,
+   },
 
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+   breakpoints: {
+     320: {
+       slidesPerView: 2,
+      
+     },
+     768: {
+       slidesPerView: 3,
+     
+     },
+     1024: {
+       slidesPerView: 4,
+     
+     },
+     1200: {
+       slidesPerView: 5,
+       
+     },
+   },
+});
+
+// <================  Electronics slider js ==============>
+var swiper = new Swiper(".Bmobile", {
+  spaceBetween:32,
+  loop:false,
+  speed:800,
+  // autoplay: {
+  //    delay: 500,
+  //    disableOnInteraction: false,
+  //  },
+
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+   breakpoints: {
+     320: {
+       slidesPerView: 2,
+      
+     },
+     768: {
+       slidesPerView: 3,
+     
+     },
+     1024: {
+       slidesPerView: 4,
+     
+     },
+     1200: {
+       slidesPerView: 5,
+       
+     },
+   },
+});
    
 
    
