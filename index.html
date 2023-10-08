@@ -1,0 +1,1548 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <title>shoping</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+  <!-- Google fonts style -->
+  <link href='http://fonts.googleapis.com/css?family=Roboto:400,700,500' rel='stylesheet'>
+
+  <!-- Boxicons link -->
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+  <!-- js file for menubar -->
+  <link href="CSS folder/vertical-responsive-menu.min.css" rel="stylesheet">
+
+  <!-- bootstrap css link -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+
+  <!-- Link Swiper CSS cdn -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+
+  <!-- Swiper JS cdn-->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+   <!-- Aos css link -->
+   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+  <!--============================= Main css file ====================-->
+  <link href="CSS folder/demo.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+  <header class="header clearfix ">
+    <div class="container">
+      <button type="button" id="toggleMenu" class="toggle_menu">
+        <i class='bx bx-menu' style="color: white;"></i>
+      </button><!-- toggle btn show menubar  -->
+
+      <!-- logo of flipkart -->
+      <h1><img src="images/flipkart-logo.png" class="logoimg" alt=""></h1>
+      <label class="logoset"> <span>Explore</span> <span style="color: rgb(236, 222, 24);">plus</span> <span> <img
+            src="images/plus_flipkart.png" alt="" style="width: 12px;"></span></label>
+
+      <!-- searchbox -->
+      <label class="inputboxlabel">
+        <input type="text" placeholder="Search for Product, Brands and More" class="inputbox">
+        <span><i class='bx bx-search customsearchicon'></i></span>
+      </label>
+
+      <!--======= control of lagre navbar ======-->
+      <section class="largenone_nav">
+        <!-- Loing btn -->
+        <ul
+          style="position: relative; z-index: 9999; display: flex;justify-content: end; gap: 50px; list-style: none; color: white; left: 200px; top: -20px;">
+
+          <li class="show" style="position: relative; list-style: none; color: white; top: -5px;"><a href="">
+              <button class="loginbtn">Login<span><i class='bx bx-chevron-right rotated'></i></span></button></a>
+            <ol class="hoverme">
+              <a href="">
+                <div class="whitebox"> </div>
+              </a>
+
+              <div class="newcustomer">
+                <li><a href="">New Customer ?</a> &ensp;&ensp;&ensp;&ensp;&ensp;<span><a href="">Signup</a></span></li>
+              </div>
+
+              <div class="Profile">
+                <li><a href=""><i class='bx bxs-user-circle customicon'></i>&nbsp;&nbsp; My Profile</a></li>
+              </div>
+
+              <div class="Profile">
+                <li><a href=""><img class="customicon2" src="/images/plus_flipkart.png" alt="">&nbsp;&nbsp;
+                    Plus
+                    Zone</a></li>
+              </div>
+
+              <div class="Profile">
+                <li><a href=""><i class='bx bx-cart-add customicon3'></i>&nbsp;&nbsp; Orders</a> </li>
+              </div>
+
+              <div class="Profile">
+                <li><a href=""><i class='bx bxs-heart customicon4'></i>&nbsp;&nbsp; Whislists</a> </li>
+              </div>
+
+
+              <div class="Profile">
+                <li><a href=""><i class='bx bxs-discount customicon4'></i>&nbsp;&nbsp; Rewards</a> </li>
+              </div>
+
+
+              <div class="Profil5">
+                <li><a href=""><i class='bx bxs-wallet customicon4'></i>&nbsp;&nbsp; Gift Cards</a> </li>
+              </div>
+            </ol>
+          </li>
+
+          <!-- become a seller  -->
+          <li class="show" style="position: relative; list-style: none; color: white; top: -5px;"><a href=""><button
+                class="loginbtn logo25"
+                style="border: none; background-color: transparent; color: white; font-size: 16px; font-weight: 600; width: 120px; ">Become
+                a seller</button></a>
+          </li>
+
+
+          <!-- More -->
+          <li class="show" style="position: relative; list-style: none; color: white; top: -5px; left: -40px;"><a
+              href=""><button class="loginbtn logo25"
+                style="border: none; background-color: transparent; color: white; font-size: 17px; width: 120px;">
+                More<span><i class='bx bx-chevron-right '
+                    style="transform: rotate(90deg);font-size: 20px; position: relative; top: 2px; right: -5px;"></i></span></button></a>
+            <ol class="hoverme">
+              <a href="">
+                <div class="whitebox"> </div>
+              </a>
+
+              <div class="newcustomer">
+                <li><a href="">New Customer ?</a> &ensp;&ensp;&ensp;&ensp;&ensp;<span><a href="">Signup</a></span></li>
+              </div>
+
+              <div class="Profile">
+                <li><a href=""><i class='bx bxs-user-circle customicon'></i>&nbsp;&nbsp; My Profile</a></li>
+              </div>
+
+              <div class="Profile">
+                <li><a href=""><img class="customicon2" src="/images/plus_flipkart.png" alt="">&nbsp;&nbsp;
+                    Plus
+                    Zone</a></li>
+              </div>
+
+              <div class="Profile">
+                <li><a href=""><i class='bx bx-cart-add customicon3'></i>&nbsp;&nbsp; Orders</a> </li>
+              </div>
+
+              <!-- <div class="Profile">
+              <li><a href=""><i class='bx bxs-heart customicon4'></i>&nbsp;&nbsp; Whislists</a> </li>
+            </div>
+
+
+            <div class="Profile">
+              <li><a href=""><i class='bx bxs-discount customicon4'></i>&nbsp;&nbsp; Rewards</a> </li>
+            </div> -->
+
+
+              <div class="Profil5">
+                <li><a href=""><i class='bx bxs-wallet customicon4'></i>&nbsp;&nbsp; Gift Cards</a> </li>
+              </div>
+            </ol>
+
+          </li>
+
+          <!-- cart -->
+          <li class="show" style="position: relative; list-style: none; color: white; top: -5px; left: -90px;"><a
+              href=""><button class="loginbtn logo25"
+                style="border: none; background-color: transparent; color: white; font-size: 19px; width: 60px;"><span><i
+                    class='bx bx-cart-add'></i></span> cart</button></a>
+
+          </li>
+
+        </ul>
+      </section>
+
+    </div>
+  </header>
+
+  <!--================== mobile menu bar ===============================-->
+  <nav class="vertical_nav blocknav" style="margin-top: -10px; position: fixed; z-index: 99;">
+    <!-- all control of menu bar -->
+
+    <ul id="js-menu" class="menu" style="background-color: white; top: 60px; ">
+
+      <li class="menu--item navset12" style="top: 60px;">
+        <a href="#" class="menu--link" title="Item 2" style="color: white; font-size: 16px;">
+          <i class="menu--icon  fa fa-fw fa-briefcase"></i>
+          <span class="menu--label"><span><i class='bx bxs-user customiconnav'></i></span> Login & Signup</span>
+        </a>
+      </li>
+
+      <li class="menu--item" style="z-index: 999; background-color: white;">
+        <a href="#" class="menu--link" title="Item 2">
+          <i class="menu--icon  fa fa-fw fa-briefcase"></i>
+          <span class="menu--label"> <span><i class='bx bxs-offer customiconnav'></i></span> Offer Zone</span></span>
+        </a>
+      </li>
+      <li class="menu--item" style="z-index: 999; background-color: white;">
+        <a href="#" class="menu--link" title="Item 2">
+          <i class="menu--icon  fa fa-fw fa-briefcase"></i>
+          <span class="menu--label"><span><i class='bx bxl-bitcoin customiconnav'></i></span> SuperCoin Zone</span>
+        </a>
+      </li>
+
+      <li class="menu--item" style="z-index: 999; background-color: white;">
+        <a href="#" class="menu--link" title="Item 3">
+          <i class="menu--icon  fa fa-fw fa-cog"></i>
+          <span class="menu--label"><span><img src="images/plus_flipkart.png" style="width: 20px; padding-right: 5px; "
+                alt=""></span> flipkart Plus Zone</span>
+        </a>
+      </li>
+
+      <li class="menu--item" style="z-index: 999; background-color: white;">
+        <a href="#" class="menu--link" title="Item 3">
+          <i class="menu--icon  fa fa-fw fa-cog"></i>
+          <span class="menu--label"><span><i class='bx bxs-category customiconnav'></i></span> All Categories</span>
+        </a>
+      </li>
+
+      <li class="menu--item" style="z-index: 999; background-color: white;">
+        <a href="#" class="menu--link" title="Item 5">
+          <i class="menu--icon  fa fa-fw fa-globe"></i>
+          <span class="menu--label"><span><i class='bx bx-store customiconnav'></i></span> Trending Stores</span>
+        </a>
+      </li>
+
+      <li class="menu--item" style="z-index: 999; background-color: white;">
+        <a href="#" class="menu--link" title="Item 5">
+          <i class="menu--icon  fa fa-fw fa-globe"></i>
+          <span class="menu--label"><span><i class='bx bx-category-alt customiconnav'></i></span> More on
+            Flipkart</span>
+        </a>
+      </li>
+
+
+      <li class="menu--item" style="z-index: 999; background-color: white;">
+        <a href="#" class="menu--link" title="Item 5">
+          <i class="menu--icon  fa fa-fw fa-globe"></i>
+          <span class="menu--label"><span><i class='bx bxs-offer customiconnav'></i></span> Offer Zone</span>
+        </a>
+      </li>
+
+      <li class="menu--item" style="z-index: 999; background-color: white;">
+        <a href="#" class="menu--link" title="Item 5">
+          <i class="menu--icon  fa fa-fw fa-globe"></i>
+          <span class="menu--label"><span><i class='bx bxs-shopping-bag customiconnav'></i></span> Sell on
+            Flipkart</span>
+        </a>
+      </li>
+
+      <li class="menu--item" style="z-index: 999; background-color: white;">
+        <a href="#" class="menu--link" title="Item 5">
+          <i class="menu--icon  fa fa-fw fa-globe"></i>
+          <span class="menu--label"><span><i class='bx bxs-wallet-alt customiconnav'></i></span> My Orders</span>
+        </a>
+      </li>
+
+      <li class="menu--item" style="z-index: 999; background-color: white;">
+        <a href="#" class="menu--link" title="Item 5">
+          <i class="menu--icon  fa fa-fw fa-globe"></i>
+          <span class="menu--label"><span><i class='bx bxs-offer customiconnav'></i></span> Coupons</span>
+        </a>
+      </li>
+
+      <li class="menu--item" style="z-index: 999; background-color: white;">
+        <a href="#" class="menu--link" title="Item 5">
+          <i class="menu--icon  fa fa-fw fa-globe"></i>
+          <span class="menu--label"><span><i class='bx bxs-cart-download customiconnav'></i></span> My Cart</span>
+        </a>
+      </li>
+
+      <li class="menu--item" style="z-index: 999; background-color: white;">
+        <a href="#" class="menu--link" title="Item 5">
+          <i class="menu--icon  fa fa-fw fa-globe"></i>
+          <span class="menu--label"><span><i class='bx bxs-heart customiconnav'></i></span> My Wishlist</span>
+        </a>
+      </li>
+
+      <li class="menu--item" style="z-index: 999; background-color: white;">
+        <a href="#" class="menu--link" title="Item 5">
+          <i class="menu--icon  fa fa-fw fa-globe"></i>
+          <span class="menu--label"><span><i class='bx bxs-user customiconnav'></i></span> My Account</span>
+        </a>
+      </li>
+
+      <li class="menu--item" style="z-index: 999; background-color: white;">
+        <a href="#" class="menu--link" title="Item 5">
+          <i class="menu--icon  fa fa-fw fa-globe"></i>
+          <span class="menu--label"><span><i class='bx bxs-bell customiconnav'></i></span> Notifications</span>
+        </a>
+      </li>
+
+      <li class="menu--item" style="z-index: 999; background-color: white;">
+        <a href="#" class="menu--link" title="Item 5">
+          <i class="menu--icon  fa fa-fw fa-globe"></i>
+          <span class="menu--label"><span><i class='bx bx-support customiconnav'></i></span> Help Center</span>
+        </a>
+      </li>
+
+    </ul>
+
+
+  </nav>
+
+  <!--======================== navbar Grocery category slider ===========-->
+  <section class="slider_container">
+    <div class="container-fluid">
+      <div class="swiper pk" style="box-shadow: 0px 2px 8px 0px  rgba(122, 122, 122, 0.99); background-color: white;">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="img_box">
+              <a href="" style="text-decoration: none;">
+                <img src="images/grocery.webp" width="70%" style="margin-left: 15%;">
+                <h6 style="text-align: center; font-size: 15px; color: black;">Grocery</h6>
+              </a>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="img_box">
+              <a href="https://www.flipkart.com/mobile-phones-store?fm=neo%2Fmerchandising&iid=M_ef347adc-f12f-406b-bfca-6fae072b84d6_1_372UD5BXDFYS_MC.ZRQ4DKH28K8J&otracker=hp_rich_navigation_2_1.navigationCard.RICH_NAVIGATION_Mobiles_ZRQ4DKH28K8J&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_2_L0_view-all&cid=ZRQ4DKH28K8J" style="text-decoration: none;">
+                <img src="images/Mobile.webp" width="70%" style="margin-left: 15%;">
+                <h6 style="text-align: center; font-size: 15px; color: black;">Mobile</h6>
+              </a>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="img_box">
+              <a href="https://www.flipkart.com/clothing-and-accessories/topwear/pr?sid=clo,ash&p[]=facets.ideal_for%255B%255D%3DMen&p[]=facets.ideal_for%255B%255D%3Dmen&otracker=categorytree&fm=neo%2Fmerchandising&iid=M_99886dd1-ec29-48cc-8d89-a236ba059780_1_372UD5BXDFYS_MC.6XNZG1FYFBZT&otracker=hp_rich_navigation_1_1.navigationCard.RICH_NAVIGATION_Fashion~Men%2527s%2BTop%2BWear_6XNZG1FYFBZT&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_1_L1_view-all&cid=6XNZG1FYFBZT" style="text-decoration: none;">
+                <img src="images/Fashion.webp" width="55%" style="margin-bottom: 15px; margin-left: 20%;">
+                <h6 style="text-align: center; font-size: 15px; color: black;">Fashion</h6>
+              </a>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="img_box">
+              <a href="https://www.flipkart.com/elec-b2b-store?fm=neo%2Fmerchandising&iid=M_c98c7606-e7c3-444b-8be7-755df8b9b4af_1_372UD5BXDFYS_MC.1B9DW42USMK1&otracker=hp_rich_navigation_2_1.navigationCard.RICH_NAVIGATION_Electronics~Electronics%2BGST%2BStore_1B9DW42USMK1&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_2_L1_view-all&cid=1B9DW42USMK1" style="text-decoration: none;">
+                <img src="images/Electronics.webp" width="60%" style="margin-bottom: 10px; margin-left: 18%;">
+                <h6 style="text-align: center; font-size: 15px; color: black;">Electronics</h6>
+              </a>
+            </div>
+          </div>
+
+
+          <div class="swiper-slide">
+            <div class="img_box">
+              <a href="https://www.flipkart.com/india-ka-furniture-studio-store?fm=neo%2Fmerchandising&iid=M_f3f6377c-5414-486e-b9a6-5bcd2047badd_1_372UD5BXDFYS_MC.Q6I8NGK1VUG9&otracker=hp_rich_navigation_1_1.navigationCard.RICH_NAVIGATION_Home%2B%2526%2BFurniture~Home%2BFurnishings_Q6I8NGK1VUG9&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_1_L1_view-all&cid=Q6I8NGK1VUG9" style="text-decoration: none;">
+                <img src="images/Home and Furniture.webp" width="60%" style="margin-left: 15%; margin-bottom: 12px;">
+                <h6 style="text-align: center; font-size: 15px; color: black;">Furniture</h6>
+              </a>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="img_box">
+              <a href="https://www.flipkart.com/tvs-and-appliances-new-clp-store?fm=neo%2Fmerchandising&iid=M_cae1fe2f-9f2f-4245-a3ff-173ce6f94736_1_372UD5BXDFYS_MC.LO4IWVHA61BX&otracker=hp_rich_navigation_6_1.navigationCard.RICH_NAVIGATION_Appliances_LO4IWVHA61BX&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_6_L0_view-all&cid=LO4IWVHA61BX" style="text-decoration: none;">
+                <img src="images/appliances.webp" width="68%"  style="margin-left: 15%;">
+                <h6 style="text-align: center; font-size: 15px; color: black;">Appliances</h6>
+              </a>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="img_box">
+              <a href="https://www.flipkart.com/travel/flights?param=DTNavIcon&fm=neo%2Fmerchandising&iid=M_90614d8b-96b8-4525-b7c3-6a67a7c735a8_1_372UD5BXDFYS_MC.V4ZPKTOAO321&otracker=hp_rich_navigation_7_1.navigationCard.RICH_NAVIGATION_Travel_V4ZPKTOAO321&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_7_L0_view-all&cid=V4ZPKTOAO321" style="text-decoration: none;">
+                <img src="images/travel.webp" width="75%" style="margin-bottom: 15px; margin-top: -20%; margin-left: 10px;">
+                <h6 style="text-align: center; font-size: 15px; color: black;">Travel</h6>
+              </a>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="img_box">
+              <a href="" style="text-decoration: none;">
+                <img src="images/top offers.webp" width="70%" style="margin-left: 10%;">
+                <h6 style="text-align: center; font-size: 15px; color: black;">Offers</h6>
+              </a>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="img_box">
+              <a href="https://www.flipkart.com/toysclp-store?fm=neo%2Fmerchandising&iid=M_deb83685-30f6-4475-9ba2-483ada0d4e68_1_372UD5BXDFYS_MC.A6A2ZZGHEZUT&otracker=hp_rich_navigation_6_1.navigationCard.RICH_NAVIGATION_Beauty%252C%2BToys%2B%2526%2BMore~Toys%2B%2526%2BSchool%2BSupplies_A6A2ZZGHEZUT&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_6_L1_view-all&cid=A6A2ZZGHEZUT" style="text-decoration: none;">
+                <img src="images/beauty and toys.webp" width="70%" style="margin-left: 10%;">
+                <h6 style="text-align: center; font-size: 15px; color: black;">Toys</h6>
+              </a>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="img_box">
+              <a href="https://www.flipkart.com/two-wheelers-store?fm=neo%2Fmerchandising&iid=M_60025ca1-ab86-48d8-b9c3-be79eee5e878_1_372UD5BXDFYS_MC.SCJPZ04TFJJM&otracker=hp_rich_navigation_1_1.navigationCard.RICH_NAVIGATION_Two%2BWheelers~Petrol%2BVehicles_SCJPZ04TFJJM&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_1_L1_view-all&cid=SCJPZ04TFJJM" style="text-decoration: none;">
+                <img src="images/two wheelers.webp" width="70%" style="margin-left: 15%;">
+                <h6 style="text-align: center; font-size: 15px; color: black;">Bike</h6>
+              </a>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="swiper-scrollbar"></div>
+
+      </div>
+    </div>
+
+  </section>
+
+  <!--================== Hero section / Banner ==========================-->
+  <section class="container-fluid" style="margin-top: 17px; position: relative; z-index: 1;">
+    <div class="swiper mySwiper controlhero">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img src="images/herob1.webp" style="width: 100%; object-fit: cover; height: 100%;" />
+        </div>
+        <div class="swiper-slide">
+          <img src="images/herob3.webp" style="width: 100%; object-fit: cover; height: 100%;" />
+        </div>
+        <div class="swiper-slide">
+          <img src="images/herob6.jpg" style="width: 100%; object-fit: cover; height: 100%;" />
+        </div>
+        <div class="swiper-slide">
+          <img src="images/herob2.webp" style="width: 100%; object-fit: cover; height: 100%;" />
+        </div>
+        <div class="swiper-slide">
+          <img src="images/herob5.webp" style="width: 100%; object-fit: cover; height: 100%;" />
+        </div>
+        <div class="swiper-slide">
+          <img src="images/herob7.webp" style="width: 100%; object-fit: cover; height: 100%;" />
+        </div>
+      </div>
+
+      <!-- Next btn  -->
+      <div class="swiper-button-next btnborderset"></div>
+
+      <!-- Previous btn  -->
+      <div class="swiper-button-prev btnborderset2"></div>
+
+      <div class="swiper-pagination"></div>
+    </div>
+  </section>
+
+  <!--================================ Eletronic section ========================================-->
+  <section class="Electronicsect">
+    <div class="container-fluid">
+      <div class="row" style="box-shadow: 0px 2px 8px 0px  rgba(122, 122, 122, 0.99); background-color: white;">
+        <!-- heading of electronic -->
+        <div class="col-lg-2 col-md-12 col-sm-12 Electronicbox">
+          <h3 class="Electronicsheading">Best of Electronics </h3>
+        </div>
+        <!-- products of electronic -->
+        <div class="col-lg-10 col-md-12 col-sm-12">
+          <div class="swiper eletronics" style=" background-color: white;  height:100% !important;">
+            <div class="swiper-wrapper">
+
+              <div class="swiper-slide" data-aos="zoom-in" >
+                <div class="img_box">
+                  <a href="" style="text-decoration: none;">
+                    <img src="images/Elect 01Best of trimmers.webp" width="90%">
+                    <h6 style="text-align: center; font-size: 16px; color: black;"> Best Trimmer</h6>
+                    <h5 style="text-align: center; font-size: 14px; color: green;">From $10</h5>
+                    <p style="text-align: center; font-size: 12px; color: black;">Realme,philips & More</p>
+                  </a>
+                </div>
+              </div>
+
+              <div class="swiper-slide" data-aos="zoom-in">
+                <div class="img_box">
+                  <a href="" style="text-decoration: none;">
+                    <img src="images/Elec 02Printers.webp" width="80%" style="margin-bottom: 30px; margin-top: 25px;">
+                    <h6 style="text-align: center; font-size: 16px; color: black;"> Best Printer</h6>
+                    <h5 style="text-align: center; font-size: 14px; color: green;">From $50</h5>
+                    <p style="text-align: center; font-size: 12px; color: black;">Hp, LG, & More</p>
+                  </a>
+                </div>
+              </div>
+
+              <div class="swiper-slide" data-aos="zoom-in">
+                <div class="img_box">
+                  <a href="" style="text-decoration: none;">
+                    <img src="images/Elec 03top Mirrorless cameras.webp" width="70%"
+                      style="margin-bottom: 13px; margin-top: 25px;">
+                    <h6 style="text-align: center; font-size: 16px; color: black;"> Best Camera</h6>
+                    <h5 style="text-align: center; font-size: 14px; color: green;">From $20</h5>
+                    <p style="text-align: center; font-size: 12px; color: black;">Canon & sony</p>
+                  </a>
+                </div>
+              </div>
+
+
+              <div class="swiper-slide" data-aos="zoom-in">
+                <div class="img_box">
+                  <a href="" style="text-decoration: none;">
+                    <img src="images/Elect 04monitors.webp" width="80%" style="margin-top: 30px; margin-bottom: 15px;">
+                    <h6 style="text-align: center; font-size: 18px; color: black;"> Best Best Monitor</h6>
+                    <h5 style="text-align: center; font-size: 14px; color: green;">From $30</h5>
+                    <p style="text-align: center; font-size: 12px; color: black;">apple &sony</p>
+                  </a>
+                </div>
+              </div>
+
+              <div class="swiper-slide" data-aos="zoom-in">
+                <div class="img_box">
+                  <a href="" style="text-decoration: none;">
+                    <img src="images/Ele 06Router UPS.webp" width="75%" style="margin-bottom: 30px; margin-top: 18px;">
+                    <h6 style="text-align: center; padding-top: 0px; font-size: 18px; color: black;"> Router UPS </h6>
+                    <h5 style="text-align: center; font-size: 14px; color: green;">From $60</h5>
+                    <p style="text-align: center; font-size: 12px; color: black;">Hp, LG, & More</p>
+                  </a>
+                </div>
+              </div>
+
+              <div class="swiper-slide" data-aos="zoom-in">
+                <div class="img_box">
+                  <a href="" style="text-decoration: none;">
+                    <img src="images/Ele 25 Projectors.webp" width="80%" style="margin-bottom: 35px; margin-top: 30px;">
+                    <h6 style="text-align: center; font-size: 18px; padding-top: 10px; color: black;"> Projectors </h6>
+                    <h5 style="text-align: center; font-size: 14px; color: green;">From $60</h5>
+                    <p style="text-align: center; font-size: 12px; color: black;">Hp, LG, & More</p>
+                  </a>
+                </div>
+              </div>
+
+              <div class="swiper-slide" data-aos="zoom-in">
+                <div class="img_box">
+                  <a href="" style="text-decoration: none;">
+                    <img src="images/Ele 07Shavers.webp" width="23%"
+                      style="margin-bottom: 30px; margin-top: 35px; margin-left: 65px;">
+                    <h6 style="text-align: center; font-size: 18px; padding-top: 20px; color: black;"> Shavers </h6>
+                    <h5 style="text-align: center; font-size: 14px; color: green;">From $60</h5>
+                    <p style="text-align: center; font-size: 12px; color: black;">Hp, LG, & More</p>
+                  </a>
+                </div>
+              </div>
+
+              <div class="swiper-slide" data-aos="zoom-in">
+                <div class="img_box">
+                  <a href="" style="text-decoration: none;">
+                    <img src="images/Elec08.webp" width="80%" style="margin-bottom: 30px; margin-top: 40px;">
+                    <h6 style="text-align: center; font-size: 18px; padding-top: 34px; color: black;"> Keyboard </h6>
+                    <h5 style="text-align: center; font-size: 14px; color: green;">From $60</h5>
+                    <p style="text-align: center; font-size: 12px; color: black;">Hp, LG, & More</p>
+                  </a>
+                </div>
+              </div>
+
+              <div class="swiper-slide" data-aos="zoom-in">
+                <div class="img_box">
+                  <a href="" style="text-decoration: none;">
+                    <img src="images/Elec 09 USB Gadgets.webp" width="80%"
+                      style="margin-bottom: 30px; margin-top: 35px;">
+                    <h6 style="text-align: center; font-size: 18px; padding-top: 25px; color: black;"> USB Gadgets </h6>
+                    <h5 style="text-align: center; font-size: 14px; color: green;">From $60</h5>
+                    <p style="text-align: center; font-size: 12px; color: black;">Hp, LG, & More</p>
+                  </a>
+                </div>
+
+              </div>
+
+              <div class="swiper-scrollbar"></div>
+
+            </div>
+            <!-- Next btn  -->
+            <div class="swiper-button-next btnborderset"></div>
+
+            <!-- Previous btn  -->
+            <div class="swiper-button-prev btnborderset2"></div>
+          </div>
+        </div>
+      </div>
+
+  </section>
+
+ 
+  <!--============================== Beauty ,toy & more section ====================================-->
+  <section class="Electronicsect" data-aos="fade-up">
+    <div class="container-fluid">
+      <div class="row" style="box-shadow: 0px 2px 8px 0px  rgba(122, 122, 122, 0.99); background-color: white;">
+        <!-- heading of Beauty toys and more -->
+        <div class="col-lg-2 col-md-12 col-sm-12 Beautybox">
+          <h3 class="Electronicsheading">Beauty toys & More </h3>
+        </div>
+        <!-- products of Beauty toys and more -->
+        <div class="col-lg-10 col-md-12 col-sm-12">
+          <div class="swiper eletronics" style=" background-color: white;  height:100% !important;">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="img_box">
+                  <a href="" style="text-decoration: none;">
+                    <img src="images/BFTT gear cycle.webp" width="100%" style="margin-bottom: 30px; margin-top: 25px;">
+                    <h6 style="text-align: center; font-size: 18px; color: black;"> Gear cycle </h6>
+                    <h5 style="text-align: center; font-size: 14px; color: green;">From $10</h5>
+                    <p style="text-align: center; font-size: 12px; color: black;">Realme,philips & More</p>
+
+                  </a>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="img_box">
+                  <a href="" style="text-decoration: none;">
+                    <img src="images/BFTT trackmill.webp" width="70%"
+                      style="margin-bottom: 30px; margin-left: 27px; margin-top: 20px;">
+                    <h6 style="text-align: center; font-size: 18px; color: black;"> Best trackmill </h6>
+                    <h5 style="text-align: center; font-size: 14px; color: green;">From $50</h5>
+                    <p style="text-align: center; font-size: 12px; color: black;">Hp, LG, & More</p>
+                  </a>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="img_box">
+                  <a href="" style="text-decoration: none;">
+                    <img src="images/BFTT coffess powder.webp" width="40%"
+                      style="margin-bottom: 13px; margin-top: 10px; margin-left: 55px;">
+                    <h6 style="text-align: center; font-size: 18px; padding-top:30px; color: black;"> Coffee Powder
+                    </h6>
+                    <h5 style="text-align: center; font-size: 14px; color: green;">From $20</h5>
+                    <p style="text-align: center; font-size: 12px; color: black;">Canon & sony</p>
+                  </a>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="img_box">
+                  <a href="" style="text-decoration: none;">
+                    <img src="images/BFTT batman.webp" width="60%"
+                      style="margin-top: 15px; margin-bottom: 15px; margin-left: 30px;">
+                    <h6 style="text-align: center; font-size: 18px; padding-top:21px; color: black;"> Batman </h6>
+                    <h5 style="text-align: center; font-size: 14px; color: green;">From $30</h5>
+                    <p style="text-align: center; font-size: 12px; color: black;">apple &sony</p>
+                  </a>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="img_box">
+                  <a href="" style="text-decoration: none;">
+                    <img src="images/BFTTdry fruits.webp" width="60%"
+                      style="margin-bottom: 30px; margin-top: -6px; margin-left: 30px;">
+                    <h6 style="text-align: center; font-size: 18px; padding-top: 05px; color: black;"> Dry Fuits </h6>
+                    <h5 style="text-align: center; font-size: 14px; color: green;">From $60</h5>
+                    <p style="text-align: center; font-size: 12px; color: black;">Hp, LG, & More</p>
+                  </a>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="img_box">
+                  <a href="" style="text-decoration: none;">
+                    <img src="images/BFTT penut butter.webp" width="60%"
+                      style="margin-bottom: 30px; margin-top: 25px; margin-left: 30px;">
+                    <h6 style="text-align: center; font-size: 18px; color: black;"> Peanut Butter </h6>
+                    <h5 style="text-align: center; font-size: 14px; color: green;">From $60</h5>
+                    <p style="text-align: center; font-size: 12px; color: black;">Hp, LG, & More</p>
+                  </a>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="img_box">
+                  <a href="" style="text-decoration: none;">
+                    <img src="images/BFTTremote car.webp" width="80%"
+                      style="margin-bottom: 30px; margin-top: 20px; margin-left: 10px;">
+                    <h6 style="text-align: center; font-size: 18px; color: black;"> Remote Car </h6>
+                    <h5 style="text-align: center; font-size: 14px; color: green;">From $60</h5>
+                    <p style="text-align: center; font-size: 12px; color: black;">Hp, LG, & More</p>
+                  </a>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="img_box">
+                  <a href="" style="text-decoration: none;">
+                    <img src="images/BFTT tyres.webp" width="70%"
+                      style="margin-bottom: 30px; margin-top: 30px; margin-left:20px">
+                    <h6 style="text-align: center; font-size: 18px; color: black;"> Tyres </h6>
+                    <h5 style="text-align: center; font-size: 14px; color: green;">From $60</h5>
+                    <p style="text-align: center; font-size: 12px; color: black;">Hp, LG, & More</p>
+                  </a>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="img_box">
+                  <a href="" style="text-decoration: none;">
+                    <img src="images/BFTTsoft toys.webp" width="70%"
+                      style="margin-bottom: 30px; margin-top: 38px; margin-left: 10px;">
+                    <h6 style="text-align: center; font-size: 18px; color: black;"> Soft toys </h6>
+                    <h5 style="text-align: center; font-size: 14px; color: green;">From $60</h5>
+                    <p style="text-align: center; font-size: 12px; color: black;">Hp, LG, & More</p>
+                  </a>
+                </div>
+              </div>
+
+              <div class="swiper-scrollbar"></div>
+
+            </div>
+            <!-- Next btn  -->
+            <div class="swiper-button-next btnborderset"></div>
+
+            <!-- Previous btn  -->
+            <div class="swiper-button-prev btnborderset2"></div>
+
+          </div>
+        </div>
+      </div>
+
+  </section>
+
+
+  <!--==================================== three boxes ========================================-->
+
+  <section style="margin-bottom: 50px; ">
+
+    <div class="container-fluid">
+      <div class="row hoveronimg">
+
+        <!--+++++++++++++++++ FESTIVE WEAR ++++=++++++++++++-->
+        <div class="col-lg-4 col-md-6 col-sm-12" data-aos="zoom-in" style=" position: relative; margin-top: 15px;" >
+          <!-- festiv wear heading -->
+          <div style="position: absolute; top: 15px; z-index: 5;">
+            <p class="boxpara">Festive wear</p>
+          </div>
+          <!--  contain control of FESTIVAL WEAR  -->
+          <div class="col-lg-12 col-md-12 col-sm-12"
+            style="box-shadow: 0px 2px 8px 0px  rgba(122, 122, 122, 0.99); background-color: white;">
+            <div class="swiper fest" style=" background-color: white;  height:100% !important;">
+              <div class="swiper-wrapper">
+
+                <!-- first festivale gift slider box -->
+                <div class="swiper-slide">
+                  <!-- main row first1 box of slider -->
+                  <div class="row" style=" padding-top: 70px; padding-left: 50px; gap: 20px; padding-bottom:10px; ">
+                    <div class="col-5 borderset"> <a href="#" style="text-decoration: none;"> <img
+                          src="images/fest night suits.webp" width="100%" style=" height: 70%; padding-bottom: 20px; ">
+                        <h6 style="text-align: center; font-size: 16px; color: black;"> women Night suits </h6>
+                        <h5 style="text-align: center; font-size: 14px; color: green; padding-bottom: 0px;">MIN 50% Off
+                        </h5>
+                      </a>
+                    </div>
+
+                    <div class="col-5 borderset"> <a href="#" style="text-decoration: none;"> <img
+                          src="images/fest jewellery.webp" width="90%"
+                          style="padding-bottom: 20px; margin-left: 2px; margin-top: 0px;">
+                        <h6 style="text-align: center; font-size: 16px; color: black;"> jewellery </h6>
+                        <h5 style="text-align: center; font-size: 14px; color: green;">MIN 60% Off</h5>
+
+                      </a>
+                    </div>
+
+                    <div class="col-5 borderset"> <a href="#" style="text-decoration: none;"> <img
+                          src="images/fest earings.webp" width="100%" style="height: 75%; padding-bottom: 20px;">
+                        <h6 style="text-align: center; font-size: 16px; color: black;"> Earing </h6>
+                        <h5 style="text-align: center; font-size: 14px; color: green;">MIN 80% Off</h5>
+
+                      </a>
+                    </div>
+
+
+                    <div class="col-5 borderset"> <a href="#" style="text-decoration: none;"> <img
+                          src="images/fest scaf.webp" width="90%"
+                          style=" height: 70%; margin-left: 0px; margin-bottom: 15px;">
+                        <h6 style="text-align: center; font-size: 16px; color: black;"> Scarves </h6>
+                        <h5 style="text-align: center; font-size: 14px; color: green;">MIN 30% Off</h5>
+
+                      </a>
+                    </div>
+
+                  </div>
+                </div>
+
+                <!-- second festivale slider box -->
+                <div class="swiper-slide">
+                  <div class="img_box">
+
+                    <!-- main row first2 box of slider -->
+                    <div class="row" style=" padding-top: 70px; padding-left: 50px; gap: 20px; padding-bottom:10px; ">
+                      <div class="col-5 borderset"> <a href="#" style="text-decoration: none;"> <img
+                            src="images/fest bags.webp" width="100%" style=" height: 70%; padding-bottom: 20px; ">
+                          <h6 style="text-align: center; font-size: 16px; color: black;"> Sling Bags </h6>
+                          <h5 style="text-align: center; font-size: 14px; color: green;">MIN 20% Off</h5>
+                        </a>
+                      </div>
+
+                      <div class="col-5 borderset"> <a href="#" style="text-decoration: none;"> <img
+                            src="images/fest bangles bracelets.webp" width="70%"
+                            style="padding-bottom: 20px; margin-left: 20px; margin-top: 20px;">
+                          <h6 style="text-align: center; font-size: 16px; color: black;"> Women Bracelets </h6>
+                          <h5 style="text-align: center; font-size: 14px; color: green;">MIN 60% Off</h5>
+
+                        </a>
+                      </div>
+
+                      <div class="col-5 borderset"> <a href="#" style="text-decoration: none;"> <img
+                            src="images/fest earing modern.webp" width="100%"
+                            style="height: 75%; padding-bottom: 20px;">
+                          <h6 style="text-align: center; font-size: 16px; color: black;"> Earing </h6>
+                          <h5 style="text-align: center; font-size: 14px; color: green;">MIN 30% Off</h5>
+
+                        </a>
+                      </div>
+
+
+                      <div class="col-5 borderset"> <a href="#" style="text-decoration: none;"> <img
+                            src="images/fest anklets.webp" width="100%"
+                            style=" height: 70%; margin-left: 0px; margin-bottom: 20px;">
+                          <h6 style="text-align: center; font-size: 16px; color: black;"> anklets </h6>
+                          <h5 style="text-align: center; font-size: 14px; color: green;">MIN 75% Off</h5>
+
+                        </a>
+                      </div>
+
+                    </div>
+
+                  </div>
+                </div>
+
+                <!-- third festivale slider box -->
+                <div class="swiper-slide">
+                  <div class="img_box">
+
+                    <!-- main row first3 box of slider -->
+                    <div class="row" style=" padding-top: 70px; padding-left: 50px; gap: 20px; padding-bottom:10px; ">
+                      <div class="col-5 borderset"> <a href="#" style="text-decoration: none;"> <img
+                            src="images/fest Clutches.webp" width="100%" style=" height: 70%; padding-bottom: 20px; ">
+                          <h6 style="text-align: center; font-size: 16px; color: black;"> Women hand purse </h6>
+                          <h5 style="text-align: center; font-size: 14px; color: green;">MIN 25% Off</h5>
+                        </a>
+                      </div>
+
+                      <div class="col-5 borderset"> <a href="#" style="text-decoration: none;"> <img
+                            src="images/fest cosmetic.webp" width="70%"
+                            style="padding-bottom: 20px; margin-left: 27px; margin-top: 20px;">
+                          <h6 style="text-align: center; font-size: 16px; color: black;"> Cosmetic bag </h6>
+                          <h5 style="text-align: center; font-size: 14px; color: green;">MIN 30% Off</h5>
+
+                        </a>
+                      </div>
+
+                      <div class="col-5 borderset"> <a href="#" style="text-decoration: none;"> <img
+                            src="images/fest earings.webp" width="100%" style="height: 75%; padding-bottom: 20px;">
+                          <h6 style="text-align: center; font-size: 16px; color: black;"> Earing </h6>
+                          <h5 style="text-align: center; font-size: 14px; color: green;">MIN 60% Off</h5>
+
+                        </a>
+                      </div>
+
+
+                      <div class="col-5 borderset"> <a href="#" style="text-decoration: none;"> <img
+                            src="images/fest nathiya.webp" width="70%"
+                            style=" height: 70%; margin-left: 20px; margin-bottom: 15px;">
+                          <h6 style="text-align: center; font-size: 16px; color: black;"> Nathiya </h6>
+                          <h5 style="text-align: center; font-size: 14px; color: green;">MIN 25% Off</h5>
+
+                        </a>
+                      </div>
+
+                    </div>
+
+                  </div>
+                </div>
+
+                <!-- fourth festivale slider box -->
+                <div class="swiper-slide">
+                  <div class="img_box">
+
+                    <!-- main row first4 box of slider -->
+                    <div class="row" style=" padding-top: 70px; padding-left: 50px; gap: 20px; padding-bottom:10px; ">
+                      <div class="col-5 borderset"> <a href="#" style="text-decoration: none;"> <img
+                            src="images/fest footwear.webp" width="100%" style=" height: 70%; padding-bottom: 20px; ">
+                          <h6 style="text-align: center; font-size: 16px; color: black;"> Footwear </h6>
+                          <h5 style="text-align: center; font-size: 14px; color: green;">MIN 80% Off</h5>
+                        </a>
+                      </div>
+
+                      <div class="col-5 borderset"> <a href="#" style="text-decoration: none;"> <img
+                            src="images/fest anklets.webp" width="70%"
+                            style="padding-bottom: 20px; margin-left: 27px; margin-top: 20px;">
+                          <h6 style="text-align: center; font-size: 16px; color: black;"> anklets </h6>
+                          <h5 style="text-align: center; font-size: 14px; color: green;">MIN 30% Off</h5>
+
+                        </a>
+                      </div>
+
+                      <div class="col-5 borderset"> <a href="#" style="text-decoration: none;"> <img
+                            src="images/fest bangles bracelets.webp" width="100%"
+                            style="height: 75%; padding-bottom: 20px;">
+                          <h6 style="text-align: center; font-size: 16px; color: black;"> Bracelets </h6>
+                          <h5 style="text-align: center; font-size: 14px; color: green;">MIN 60% Off</h5>
+
+                        </a>
+                      </div>
+
+
+                      <div class="col-5 borderset"> <a href="#" style="text-decoration: none;"> <img
+                            src="images/fest earing modern.webp" width="70%"
+                            style=" height: 70%; margin-left: 20px; margin-bottom: 15px;">
+                          <h6 style="text-align: center; font-size: 16px; color: black;"> Earing </h6>
+                          <h5 style="text-align: center; font-size: 14px; color: green;">MIN 25% Off</h5>
+
+                        </a>
+                      </div>
+
+                    </div>
+
+                  </div>
+                </div>
+
+
+              </div>
+              <!-- Next btn  -->
+              <div class="swiper-button-next circlebtnnext btn1"></div>
+
+              <!-- Previous btn  -->
+              <div class="swiper-button-prev circlebtnprev btn2"></div>
+              <div class="swiper-scrollbar"></div>
+
+            </div>
+          </div>
+
+        </div>
+
+
+        <!--+++++++++++++++++ FESTIVE 2 GIFTING ++++=++++++++++++-->
+        <div class="col-lg-4 col-md-6 col-sm-12" data-aos="zoom-in" style=" position: relative; margin-top: 15px;">
+          <!-- festiv wear heading -->
+          <div style="position: absolute; top: 15px; z-index: 5;">
+            <p class="boxpara">Festive Gifting</p>
+          </div>
+          <!--  contain control of FESTIVAL Gifting  -->
+          <div class="col-lg-12 col-md-12 col-sm-12"
+            style="box-shadow: 0px 2px 8px 0px  rgba(122, 122, 122, 0.99); background-color: white;">
+            <div class="swiper fest" style=" background-color: white;  height:100% !important;">
+              <div class="swiper-wrapper">
+
+                <!-- first festivale gift slider box -->
+                <div class="swiper-slide">
+                  <!-- main row first1 box of slider -->
+                  <div class="row" style=" padding-top: 70px; padding-left: 50px; gap: 20px; padding-bottom:10px; ">
+                    <div class="col-5 borderset"> <a href="#" style="text-decoration: none;"> <img
+                          src="images/gif swings2.webp" width="100%" style=" height: 70%; padding-bottom: 20px; ">
+                        <h6 style="text-align: center; font-size: 16px; color: black;"> Swings </h6>
+                        <h5 style="text-align: center; font-size: 14px; color: green; padding-bottom: 0px;">MIN 50% Off
+                        </h5>
+                      </a>
+                    </div>
+
+                    <div class="col-5 borderset"> <a href="#" style="text-decoration: none;"> <img
+                          src="images/gif woks & kadhais.webp" width="100%"
+                          style="padding-bottom: 20px; height: 70%; margin-left: 2px; margin-top: 0px;">
+                        <h6 style="text-align: center; font-size: 16px; color: black;"> Kadhais </h6>
+                        <h5 style="text-align: center; font-size: 14px; color: green;">MIN 60% Off</h5>
+
+                      </a>
+                    </div>
+
+                    <div class="col-5 borderset"> <a href="#" style="text-decoration: none;"> <img
+                          src="images/gif mops.webp" width="100%" style="height: 75%; padding-bottom: 20px;">
+                        <h6 style="text-align: center; font-size: 16px; color: black;">Mops </h6>
+                        <h5 style="text-align: center; font-size: 14px; color: green;">MIN 80% Off</h5>
+
+                      </a>
+                    </div>
+
+
+                    <div class="col-5 borderset"> <a href="#" style="text-decoration: none;"> <img
+                          src="images/gif lunch box.webp" width="70%"
+                          style=" height: 70%; margin-left: 20px; margin-bottom: 15px;">
+                        <h6 style="text-align: center; font-size: 16px; color: black;"> Lunch Box </h6>
+                        <h5 style="text-align: center; font-size: 14px; color: green;">MIN 30% Off</h5>
+
+                      </a>
+                    </div>
+
+                  </div>
+                </div>
+
+                <!-- second festivale slider box -->
+                <div class="swiper-slide">
+                  <div class="img_box">
+
+                    <!-- main row first2 box of slider -->
+                    <div class="row" style=" padding-top: 70px; padding-left: 50px; gap: 20px; padding-bottom:10px; ">
+                      <div class="col-5 borderset"> <a href="#" style="text-decoration: none;"> <img
+                            src="images/gif cookware sets.webp" width="100%"
+                            style=" height: 70%; padding-bottom: 20px; ">
+                          <h6 style="text-align: center; font-size: 16px; color: black;"> Cookwar </h6>
+                          <h5 style="text-align: center; font-size: 14px; color: green;">MIN 20% Off</h5>
+                        </a>
+                      </div>
+
+                      <div class="col-5 borderset"> <a href="#" style="text-decoration: none;"> <img
+                            src="images/gif lipstick.webp" width="83%"
+                            style="padding-bottom: 20px; margin-left: 27px;  margin-top: 20px;">
+                          <h6 style="text-align: center; font-size: 16px; color: black;"> lipstick </h6>
+                          <h5 style="text-align: center; font-size: 14px; color: green;">MIN 60% Off</h5>
+
+                        </a>
+                      </div>
+
+                      <div class="col-5 borderset"> <a href="#" style="text-decoration: none;"> <img
+                            src="images/gif swing14.webp" width="100%" style="height: 75%; padding-bottom: 20px;">
+                          <h6 style="text-align: center; font-size: 16px; color: black;"> Swing </h6>
+                          <h5 style="text-align: center; font-size: 14px; color: green;">MIN 30% Off</h5>
+
+                        </a>
+                      </div>
+
+
+                      <div class="col-5 borderset"> <a href="#" style="text-decoration: none;"> <img
+                            src="images/gif handcrafted.webp" width="100%"
+                            style=" height: 70%; margin-left: 0px; margin-bottom: 20px;">
+                          <h6 style="text-align: center; font-size: 16px; color: black;"> Handcrafted </h6>
+                          <h5 style="text-align: center; font-size: 14px; color: green;">MIN 75% Off</h5>
+
+                        </a>
+                      </div>
+
+                    </div>
+
+                  </div>
+                </div>
+
+                <!-- third festivale slider box -->
+                <div class="swiper-slide">
+                  <div class="img_box">
+
+                    <!-- main row first3 box of slider -->
+                    <div class="row" style=" padding-top: 70px; padding-left: 50px; gap: 20px; padding-bottom:10px; ">
+                      <div class="col-5 borderset"> <a href="#" style="text-decoration: none;"> <img
+                            src="images/gif carpet.webp" width="100%" style=" height: 70%; padding-bottom: 20px; ">
+                          <h6 style="text-align: center; font-size: 16px; color: black;"> Carpet </h6>
+                          <h5 style="text-align: center; font-size: 14px; color: green;">MIN 80% Off</h5>
+                        </a>
+                      </div>
+
+                      <div class="col-5 borderset"> <a href="#" style="text-decoration: none;"> <img
+                            src="images/fest Blouse.webp" width="93%"
+                            style="padding-bottom: 20px; margin-left: 0px; margin-top: 20px;">
+                          <h6 style="text-align: center; font-size: 16px; color: black;">Blouse </h6>
+                          <h5 style="text-align: center; font-size: 14px; color: green;">MIN 30% Off</h5>
+
+                        </a>
+                      </div>
+
+                      <div class="col-5 borderset"> <a href="#" style="text-decoration: none;"> <img
+                            src="images/gif bear bag.webp" width="100%" style="height: 75%; padding-bottom: 20px;">
+                          <h6 style="text-align: center; font-size: 16px; color: black;"> Bear bag </h6>
+                          <h5 style="text-align: center; font-size: 14px; color: green;">MIN 60% Off</h5>
+
+                        </a>
+                      </div>
+
+
+                      <div class="col-5 borderset"> <a href="#" style="text-decoration: none;"> <img
+                            src="images/gif  casseroles.webp" width="100%"
+                            style=" height: 70%; margin-left: 0px; margin-bottom: 15px;">
+                          <h6 style="text-align: center; font-size: 16px; color: black;">Casseroles </h6>
+                          <h5 style="text-align: center; font-size: 14px; color: green;">MIN 25% Off</h5>
+
+                        </a>
+                      </div>
+
+                    </div>
+
+                  </div>
+                </div>
+
+                <!-- fourth festivale slider box -->
+                <div class="swiper-slide">
+                  <div class="img_box">
+
+                    <!-- main row first4 box of slider -->
+                    <div class="row" style=" padding-top: 70px; padding-left: 50px; gap: 20px; padding-bottom:10px; ">
+                      <div class="col-5 borderset"> <a href="#" style="text-decoration: none;"> <img
+                            src="images/gif cookers.webp" width="100%" style=" height: 70%; padding-bottom: 20px; ">
+                          <h6 style="text-align: center; font-size: 16px; color: black;"> Cookers </h6>
+                          <h5 style="text-align: center; font-size: 14px; color: green;">MIN 80% Off</h5>
+                        </a>
+                      </div>
+
+                      <div class="col-5 borderset"> <a href="#" style="text-decoration: none;"> <img
+                            src="images/gir instruments.webp" width="100%"
+                            style="padding-bottom: 20px; margin-left: 0px; margin-top: 20px;">
+                          <h6 style="text-align: center; font-size: 16px; color: black;"> Musical Instruments </h6>
+                          <h5 style="text-align: center; font-size: 14px; color: green;">MIN 30% Off</h5>
+
+                        </a>
+                      </div>
+
+                      <div class="col-5 borderset"> <a href="#" style="text-decoration: none;"> <img
+                            src="images/gir paints.webp" width="100%" style="height: 75%; padding-bottom: 20px;">
+                          <h6 style="text-align: center; font-size: 16px; color: black;"> paints </h6>
+                          <h5 style="text-align: center; font-size: 14px; color: green;">MIN 60% Off</h5>
+
+                        </a>
+                      </div>
+
+
+                      <div class="col-5 borderset"> <a href="#" style="text-decoration: none;"> <img
+                            src="images/gif dinner set.webp" width="100%" style=" height: 70%;  margin-bottom: 15px;">
+                          <h6 style="text-align: center; font-size: 16px; color: black;"> Dinner set </h6>
+                          <h5 style="text-align: center; font-size: 14px; color: green;">MIN 25% Off</h5>
+
+                        </a>
+                      </div>
+
+                    </div>
+
+                  </div>
+                </div>
+
+
+              </div>
+              <!-- Next btn  -->
+              <div class="swiper-button-next circlebtnnext btn1"></div>
+
+              <!-- Previous btn  -->
+              <div class="swiper-button-prev circlebtnprev btn2"></div>
+              <div class="swiper-scrollbar"></div>
+
+            </div>
+          </div>
+
+        </div>
+
+        <!--+++++++++++++++++ FESTIVE 3 COLLECTION ++++=++++++++++++-->
+        <div class="col-lg-4 col-md-6 col-sm-12" data-aos="zoom-in" style=" position: relative; margin-top: 15px;">
+          <!-- festiv collection heading -->
+          <div style="position: absolute; top: 15px; z-index: 5;">
+            <p class="boxpara">Festive Collection</p>
+          </div>
+          <!--  contain control of FESTIVAL collection  -->
+          <div class="col-lg-12 col-md-12 col-sm-12"
+            style="box-shadow: 0px 2px 8px 0px  rgba(122, 122, 122, 0.99); background-color: white;">
+            <div class="swiper fest" style=" background-color: white;  height:100% !important;">
+              <div class="swiper-wrapper">
+
+                <!-- first festivale collection slider box -->
+                <div class="swiper-slide">
+                  <!-- main row first1 box of slider -->
+                  <div class="row" style=" padding-top: 70px; padding-left: 50px; gap: 20px; padding-bottom:10px; ">
+                    <div class="col-5 borderset"> <a href="#" style="text-decoration: none;"> <img
+                          src="images/coll artificial flowes.webp" width="100%"
+                          style=" height: 70%; padding-bottom: 20px; ">
+                        <h6 style="text-align: center; font-size: 16px; color: black;"> Artificial Flowers </h6>
+                        <h5 style="text-align: center; font-size: 14px; color: green; padding-bottom: 0px;">MIN 50% Off
+                        </h5>
+                      </a>
+                    </div>
+
+                    <div class="col-5 borderset"> <a href="#" style="text-decoration: none;"> <img
+                          src="images/coll pooja thali sets.webp" width="100%"
+                          style="padding-bottom: 20px; height: 70%; margin-left: 2px; margin-top: 0px;">
+                        <h6 style="text-align: center; font-size: 16px; color: black;"> Pooja thali </h6>
+                        <h5 style="text-align: center; font-size: 14px; color: green;">MIN 60% Off</h5>
+
+                      </a>
+                    </div>
+
+                    <div class="col-5 borderset"> <a href="#" style="text-decoration: none;"> <img
+                          src="images/coll kalash.webp" width="100%" style="height: 75%; padding-bottom: 20px;">
+                        <h6 style="text-align: center; font-size: 16px; color: black;">Kalash </h6>
+                        <h5 style="text-align: center; font-size: 14px; color: green;">MIN 80% Off</h5>
+
+                      </a>
+                    </div>
+
+
+                    <div class="col-5 borderset"> <a href="#" style="text-decoration: none;"> <img
+                          src="images/coll deity dresses.webp" width="100%" style=" height: 70%;  margin-bottom: 15px;">
+                        <h6 style="text-align: center; font-size: 16px; color: black;"> Deity Dresses </h6>
+                        <h5 style="text-align: center; font-size: 14px; color: green;">MIN 30% Off</h5>
+
+                      </a>
+                    </div>
+
+                  </div>
+                </div>
+
+                <!-- second festivale slider box -->
+                <div class="swiper-slide">
+                  <div class="img_box">
+
+                    <!-- main row first2 box of slider -->
+                    <div class="row" style=" padding-top: 70px; padding-left: 50px; gap: 20px; padding-bottom:10px; ">
+                      <div class="col-5 borderset"> <a href="#" style="text-decoration: none;"> <img
+                            src="images/coll bowls.webp" width="100%"
+                            style=" height: 70%; padding-bottom: 20px; margin-left: 0px; ">
+                          <h6 style="text-align: center; font-size: 16px; color: black;"> Bowls </h6>
+                          <h5 style="text-align: center; font-size: 14px; color: green;">MIN 20% Off</h5>
+                        </a>
+                      </div>
+
+                      <div class="col-5 borderset"> <a href="#" style="text-decoration: none;"> <img
+                            src="images/coll baskets.webp" width="100%"
+                            style="padding-bottom: 20px; margin-left: 0px;   margin-top: 0px;">
+                          <h6 style="text-align: center; font-size: 16px; color: black;"> Baskets </h6>
+                          <h5 style="text-align: center; font-size: 14px; color: green;">MIN 60% Off</h5>
+
+                        </a>
+                      </div>
+
+                      <div class="col-5 borderset"> <a href="#" style="text-decoration: none;"> <img
+                            src="images/coll home temple.webp" width="100%" style="height: 75%; padding-bottom: 20px;">
+                          <h6 style="text-align: center; font-size: 16px; color: black;"> Home Temple </h6>
+                          <h5 style="text-align: center; font-size: 14px; color: green;">MIN 30% Off</h5>
+
+                        </a>
+                      </div>
+
+
+                      <div class="col-5 borderset"> <a href="#" style="text-decoration: none;"> <img
+                            src="images/coll incense sticks.webp" width="100%"
+                            style=" height: 70%; margin-left: 0px; margin-bottom: 20px;">
+                          <h6 style="text-align: center; font-size: 16px; color: black;">Incense Sticks </h6>
+                          <h5 style="text-align: center; font-size: 14px; color: green;">MIN 75% Off</h5>
+
+                        </a>
+                      </div>
+
+                    </div>
+
+                  </div>
+                </div>
+
+                <!-- third festivale slider box -->
+                <div class="swiper-slide">
+                  <div class="img_box">
+
+                    <!-- main row first3 box of slider -->
+                    <div class="row" style=" padding-top: 70px; padding-left: 50px; gap: 20px; padding-bottom:10px; ">
+                      <div class="col-5 borderset"> <a href="#" style="text-decoration: none;"> <img
+                            src="images/coll plants.webp" width="100%" style=" height: 70%; padding-bottom: 20px; ">
+                          <h6 style="text-align: center; font-size: 16px; color: black;"> Artificial plants </h6>
+                          <h5 style="text-align: center; font-size: 14px; color: green;">MIN 80% Off</h5>
+                        </a>
+                      </div>
+
+                      <div class="col-5 borderset"> <a href="#" style="text-decoration: none;"> <img
+                            src="images/coll toran.webp" width="100%"
+                            style="padding-bottom: 20px; margin-left: 0px; margin-top: 0px;">
+                          <h6 style="text-align: center; font-size: 16px; color: black;"> Toran </h6>
+                          <h5 style="text-align: center; font-size: 14px; color: green;">MIN 30% Off</h5>
+
+                        </a>
+                      </div>
+
+                      <div class="col-5 borderset"> <a href="#" style="text-decoration: none;"> <img
+                            src="images/fest Blouse.webp" width="87%" style="height: 75%; padding-bottom: 20px;">
+                          <h6 style="text-align: center; font-size: 16px; color: black;"> Blouse </h6>
+                          <h5 style="text-align: center; font-size: 14px; color: green;">MIN 60% Off</h5>
+
+                        </a>
+                      </div>
+
+
+                      <div class="col-5 borderset"> <a href="#" style="text-decoration: none;"> <img
+                            src="images/coll veses.webp" width="100%"
+                            style=" height: 70%; margin-left: 0px; margin-bottom: 15px;">
+                          <h6 style="text-align: center; font-size: 16px; color: black;"> Women anklets </h6>
+                          <h5 style="text-align: center; font-size: 14px; color: green;">MIN 25% Off</h5>
+
+                        </a>
+                      </div>
+
+                    </div>
+
+                  </div>
+                </div>
+
+                <!-- fourth festivale slider box -->
+                <div class="swiper-slide">
+                  <div class="img_box">
+
+                    <!-- main row first4 box of slider -->
+                    <div class="row" style=" padding-top: 70px; padding-left: 50px; gap: 20px; padding-bottom:10px; ">
+                      <div class="col-5 borderset"> <a href="#" style="text-decoration: none;"> <img
+                            src="images/coll bed covers.webp" width="100%" style=" height: 70%; padding-bottom: 20px; ">
+                          <h6 style="text-align: center; font-size: 16px; color: black;"> Bed covers </h6>
+                          <h5 style="text-align: center; font-size: 14px; color: green;">MIN 80% Off</h5>
+                        </a>
+                      </div>
+
+                      <div class="col-5 borderset"> <a href="#" style="text-decoration: none;"> <img
+                            src="images/coll diyas holders.webp" width="100%"
+                            style="padding-bottom: 20px; margin-left: 0px; margin-top: 0px;">
+                          <h6 style="text-align: center; font-size: 16px; color: black;"> Diya holder </h6>
+                          <h5 style="text-align: center; font-size: 14px; color: green;">MIN 30% Off</h5>
+
+                        </a>
+                      </div>
+
+                      <div class="col-5 borderset"> <a href="#" style="text-decoration: none;"> <img
+                            src="images/coll veses.webp" width="100%" style="height: 75%; padding-bottom: 20px;">
+                          <h6 style="text-align: center; font-size: 16px; color: black;"> Verses </h6>
+                          <h5 style="text-align: center; font-size: 14px; color: green;">MIN 60% Off</h5>
+
+                        </a>
+                      </div>
+
+
+                      <div class="col-5 borderset"> <a href="#" style="text-decoration: none;"> <img
+                            src="images/gif dinner set.webp" width="100%" style=" height: 70%;  margin-bottom: 15px;">
+                          <h6 style="text-align: center; font-size: 16px; color: black;"> Dinner set </h6>
+                          <h5 style="text-align: center; font-size: 14px; color: green;">MIN 25% Off</h5>
+
+                        </a>
+                      </div>
+
+                    </div>
+
+                  </div>
+                </div>
+
+
+              </div>
+              <!-- Next btn  -->
+              <div class="swiper-button-next circlebtnnext btn1"></div>
+
+              <!-- Previous btn  -->
+              <div class="swiper-button-prev circlebtnprev btn2"></div>
+              <div class="swiper-scrollbar"></div>
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!--============================== pick your style section ====================================-->
+  <section class="Electronicsect" >
+    <div class="container-fluid">
+      <div class="row" style="box-shadow: 0px 2px 8px 0px  rgba(122, 122, 122, 0.99); background-color: white;">
+        <!-- heading of pick your style -->
+        <div class="col-lg-2 col-md-12 col-sm-12 Beautybox" data-aos="zoom-in">
+          <h3 class="Electronicsheading">Pick your style </h3>
+        </div>
+        <!-- products of pick your style -->
+        <div class="col-lg-10 col-md-12 col-sm-12">
+          <div class="swiper eletronics" style=" background-color: white;  height:100% !important;">
+            <div class="swiper-wrapper">
+
+              <div class="swiper-slide" data-aos="flip-right">
+                <div class="img_box">
+                  <a href="" style="text-decoration: none;">
+                    <img src="images/sty night suits.webp" width="100%" style="margin-bottom: 30px; margin-top: 25px;">
+                    <h6 style="text-align: center; font-size: 16px; color: black;"> Night Suits </h6>
+                    <h5 style="text-align: center; font-size: 14px; color: green;">MIN 20% Off</h5>
+                  </a>
+                </div>
+              </div>
+
+              <div class="swiper-slide" data-aos="flip-right">
+                <div class="img_box">
+                  <a href="" style="text-decoration: none;">
+                    <img src="images/sty patlani saree.webp" width="50%"
+                      style="margin-bottom: 30px; margin-left: 35px; margin-top: 20px;">
+                    <h6 style="text-align: center; font-size: 16px; color: black;"> Patlani saree </h6>
+                    <h5 style="text-align: center; font-size: 14px; color: green;">Under ₹2500 </h5>
+                  </a>
+                </div>
+              </div>
+
+              <div class="swiper-slide" data-aos="flip-right">
+                <div class="img_box">
+                  <a href="" style="text-decoration: none;">
+                    <img src="images/sty hoodies jackets.webp" width="75%"
+                      style="margin-bottom: 13px; padding-top: 40px; margin-top: 10px; margin-left: 25px;">
+                    <h6 style="text-align: center; font-size: 16px; padding-top:30px; color: black;"> Hoddies, jackets
+                    </h6>
+                    <h5 style="text-align: center; font-size: 14px; color: green;">Up to 70% Off</h5>
+
+                  </a>
+                </div>
+              </div>
+
+              <div class="swiper-slide" data-aos="flip-right">
+                <div class="img_box">
+                  <a href="" style="text-decoration: none;">
+                    <img src="images/sty shoes.webp" width="76%"
+                      style="margin-top: 15px; padding-top: 35px; margin-bottom: 15px; margin-left: 30px;">
+                    <h6 style="text-align: center; font-size: 16px; padding-top:21px; color: black;">Style shoes</h6>
+                    <h5 style="text-align: center; font-size: 14px; color: green;">From ₹499</h5>
+
+                  </a>
+                </div>
+              </div>
+
+              <div class="swiper-slide" data-aos="flip-right">
+                <div class="img_box">
+                  <a href="" style="text-decoration: none;">
+                    <img src="images/sty printed kurta.webp" width="75%"
+                      style="margin-bottom: 30px; padding-top: 55px; margin-top: -6px; margin-left: 30px;">
+                    <h6 style="text-align: center; font-size: 16px; padding-top: 05px; color: black;"> printed kurta
+                    </h6>
+                    <h5 style="text-align: center; font-size: 14px; color: green;">MIN 55% Off</h5>
+                  </a>
+                </div>
+              </div>
+
+              <div class="swiper-slide" data-aos="flip-right">
+                <div class="img_box">
+                  <a href="" style="text-decoration: none;">
+                    <img src="images/sty ethnic sets.webp" width="75%"
+                      style="margin-bottom: 30px; margin-top: 25px; margin-left: 30px;">
+                    <h6 style="text-align: center; font-size: 16px; color: black;"> Ethnic sets </h6>
+                    <h5 style="text-align: center; font-size: 14px; color: green;">From ₹999</h5>
+                  </a>
+                </div>
+              </div>
+
+              <div class="swiper-slide" data-aos="flip-right">
+                <div class="img_box">
+                  <a href="" style="text-decoration: none;">
+                    <img src="images/sty solid leather jacket.webp" width="85%"
+                      style="margin-bottom: 30px; padding-top: 62px; margin-left: 10px;">
+                    <h6 style="text-align: center; font-size: 16px; color: black;"> leather jacket </h6>
+                    <h5 style="text-align: center; font-size: 14px; color: green;">Up to 70% Off</h5>
+
+                  </a>
+                </div>
+              </div>
+
+              <div class="swiper-slide" data-aos="flip-right">
+                <div class="img_box">
+                  <a href="" style="text-decoration: none;">
+                    <img src="images/sty trolly.webp" width="85%"
+                      style="margin-bottom: 30px; padding-top: 75px; margin-left:20px">
+                    <h6 style="text-align: center; font-size: 16px; color: black;"> Trolly,Bags </h6>
+                    <h5 style="text-align: center; font-size: 14px; color: green;">MIN 30% Off</h5>
+                  </a>
+                </div>
+              </div>
+
+              <div class="swiper-slide" data-aos="flip-right">
+                <div class="img_box">
+                  <a href="" style="text-decoration: none;">
+                    <img src="images/gown.webp" width="63%"
+                      style="margin-bottom: 30px; margin-top: 32px; margin-left: 10px;">
+                    <h6 style="text-align: center; font-size: 16px; color: black;"> Sarees </h6>
+                    <h5 style="text-align: center; font-size: 14px; color: green;">Under ₹2999</h5>
+                  </a>
+                </div>
+              </div>
+
+
+
+              <div class="swiper-slide" data-aos="flip-right">
+                <div class="img_box">
+                  <a href="" style="text-decoration: none;">
+                    <img src="images/stythirt.webp" width="80%"
+                      style="margin-bottom: 30px; margin-top: 38px; margin-left: 10px;">
+                    <h6 style="text-align: center; font-size: 16px; color: black;"> Round T-shirt </h6>
+                    <h5 style="text-align: center; font-size: 14px; color: green;">From ₹299</h5>
+                  </a>
+                </div>
+              </div>
+
+              <div class="swiper-slide" data-aos="flip-right">
+                <div class="img_box">
+                  <a href="" style="text-decoration: none;">
+                    <img src="images/sty coat.webp" width="60%"
+                      style="margin-bottom: 30px; margin-top: 38px; margin-left: 10px;">
+                    <h6 style="text-align: center; font-size: 16px; color: black;"> Style coat </h6>
+                    <h5 style="text-align: center; font-size: 14px; color: green;">Up to 45%</h5>
+                  </a>
+                </div>
+              </div>
+
+              <div class="swiper-slide" data-aos="flip-right">
+                <div class="img_box">
+                  <a href="" style="text-decoration: none;">
+                    <img src="images/sty semi lengha.webp" width="70%"
+                      style="margin-bottom: 30px; margin-top: 38px; margin-left: 10px;">
+                    <h6 style="text-align: center; font-size: 16px; color: black;"> Lengha </h6>
+                    <h5 style="text-align: center; font-size: 14px; color: green;">MIN 30% Off</h5>
+                  </a>
+                </div>
+              </div>
+
+
+              <div class="swiper-slide" data-aos="flip-right">
+                <div class="img_box">
+                  <a href="" style="text-decoration: none;">
+                    <img src="images/sty casul jacket.webp" width="50%"
+                      style="margin-bottom: 30px; margin-top: 38px; margin-left: 45px;">
+                    <h6 style="text-align: center; font-size: 16px; color: black;"> causal jacket </h6>
+                    <h5 style="text-align: center; font-size: 14px; color: green;">MIN 80% Off</h5>
+                  </a>
+                </div>
+              </div>
+
+              <div class="swiper-slide" data-aos="flip-right">
+                <div class="img_box">
+                  <a href="" style="text-decoration: none;">
+                    <img src="images/sty solid leather jacket.webp" width="70%"
+                      style="margin-bottom: 30px; margin-top: 38px; margin-left: 10px;">
+                    <h6 style="text-align: center; font-size: 16px; color: black;"> jacket </h6>
+                    <h5 style="text-align: center; font-size: 14px; color: green;">Up to 40%</h5>
+                  </a>
+                </div>
+              </div>
+
+              <div class="swiper-slide" data-aos="flip-right">
+                <div class="img_box">
+                  <a href="" style="text-decoration: none;">
+                    <img src="images/sty black saree.webp" width="72%"
+                      style="margin-bottom: 30px; margin-top: 28px; margin-left: 10px;">
+                    <h6 style="text-align: center; font-size: 16px; color: black;"> Black saree </h6>
+                    <h5 style="text-align: center; font-size: 14px; color: green;">From ₹2999 </h5>
+                  </a>
+                </div>
+              </div>
+
+
+
+              <div class="swiper-scrollbar"></div>
+
+            </div>
+            <!-- Next btn  -->
+            <div class="swiper-button-next btnborderset"></div>
+
+            <!-- Previous btn  -->
+            <div class="swiper-button-prev btnborderset2"></div>
+
+          </div>
+        </div>
+      </div>
+
+  </section>
+
+
+
+</body>
+
+<!-- menu js link-->
+<script src="JS folder/vertical-responsive-menu.min.js"></script>
+
+<!-- bootstrap js link -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+<!--+++++++==================================== Main js file =========================+++++++++-->
+<script src="JS folder/main.js"></script>
+
+<!-- Aos js link -->
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init({
+    offset: 200, 
+    duration: 1000,
+  });
+</script>
+
+</html>
